@@ -1,0 +1,270 @@
+/**
+*   SECTION: @media custom fix File
+*   A Css File use to include all custome screen fix
+*
+*   All Custom Media Screen fix should include in the this file
+*/
+
+/* Smartphones (portrait and landscape) ----------- (device)*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Styles */
+    
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+    /* Styles */
+    
+}
+
+/* iPads (portrait and landscape) ----------- (device)*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- (device)*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- (device)*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+    
+
+}
+
+/* all Mobile phones ----------- */
+@media only screen and (max-width: 1081px) {
+    /* Styles */
+
+    /*make scrollbar plugin alway visible on mobile*/
+    .scrollbar-macosx > .scroll-element .scroll-bar {
+        background-color: rgb(192, 192, 192);
+        display: block;
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.7)";
+        filter: alpha(opacity=0.7);
+        opacity: 0.7;
+    }
+
+    /* Styles */
+    #in-house-bookshelf {
+        width: 90%;
+        height: 90%;
+        left: 5%;
+    }
+
+    .in-house-book {
+        width: 15%;
+    }
+
+    #outdoor-road-sign-wrapper {
+        width: 40%;
+    }
+
+    #outdoor-mountain {
+        bottom: 0;
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .page-content-wrapper {
+        padding-top: 80px !important;
+        
+    }
+    .page-content-wrapper h2 {
+        max-height: 130px;
+    }
+    
+    .dribble-shot-wrapper {
+        width: 100%;
+        
+    }
+    .front-cover, .back-cover, .page1, .page2, .page3, .page4, .page5, .page6 {
+        width: 40vw;
+    }
+
+    [tooltip-content]:before {
+        display: none;
+        transform: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+    #in-house-bookshelf {
+        width: 80%;
+        height: 90%;
+        left: 10%;
+    }
+
+    .in-house-book {
+        width: 12%;
+    }
+
+    #character-wrapper {
+        width: 150px;
+        height: 247.059px;
+        /* left: calc(50% - 90px); */
+        left: 0px;
+    }
+
+    #outdoor-character {
+        width: 150px;
+        height: 247.059px;
+        left: 0;
+    }
+
+    #outdoor-road-sign-wrapper p {
+        font-size: 1rem;
+    }
+
+    .small-character {
+        width: 120px !important;
+    }
+
+    .dribble-shot-wrapper {
+        width: calc( 100% / 3);
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1500px) {
+    /* Styles */
+    #character-wrapper {
+        width: 170px;
+        height: 280px;
+        /* left: calc(50% - 110px); */
+        left: 0px;
+    }
+
+    #outdoor-character {
+        width: 220px;
+        height: 280px;
+        left: 0;
+    }
+
+    #outdoor-road-sign-wrapper p {
+        font-size: 1.2rem;
+    }
+
+    #in-house-bookshelf {
+        width: 70%;
+        height: 100%;
+        left: 15%;
+    }
+    .in-house-book {
+        width: 11%;
+    }
+
+    #in-house-logo {
+        width: 80px;
+        height: 80px;
+        margin: 20px;
+    }
+
+    #in-house-title-wrapper h1 {
+        font-size: 4rem;
+    }
+
+    #in-house-title-wrapper p {
+        font-size: 1.5rem;
+    }
+
+    #in-house-kitchen {
+        width: 26%;
+        left: 65%;
+    }
+
+    #in-house-kitchen-top {
+        width: 13%;
+        left: 65%;
+    }
+
+    #in-house-coffee-machine {
+        width: 8%;
+        left: 68%;
+    }
+
+    #in-house-comp-desk {
+        width: 25%;
+        left: 10%;
+    }
+
+    #in-house-computer {
+        width: 10%;
+        left: 17.5%;
+    }
+
+    .in-house-speaker {
+        width: 4%;
+        left: 15.75%;
+    }
+
+    #in-house-left-speaker {
+        left: 11.75%;
+    }
+
+    #in-house-right-speaker {
+        left: 29.25%;
+    }
+
+    #in-house-clock {
+        width: 6%;
+        left: 10.75%;
+    }
+
+    #in-house-frame {
+        width: 5%;
+        left: 28.75%;
+    }
+
+    #in-house-tv-desk {
+        width: 60%;
+    }
+
+    #in-house-tv {
+        width: 40%;
+    }
+    #blur-filter {
+        bottom: -200px;
+    }
+
+    #house-wrapper {
+        width: 80%;
+    }
+
+    #house-sign-wrapper {
+        width: 30%;
+    }
+
+    .small-character {
+        width: 120px !important;
+    }
+    
+    #progress-bar-wrapper {
+        bottom: 2.5%;
+    }
+
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}
