@@ -8,7 +8,6 @@
 /* Smartphones (portrait and landscape) ----------- (device)*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     /* Styles */
-    
 }
 
 /* Smartphones (landscape) ----------- */
@@ -19,7 +18,6 @@
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
     /* Styles */
-    
 }
 
 /* iPads (portrait and landscape) ----------- (device)*/
@@ -35,8 +33,6 @@
 /* iPads (portrait) ----------- (device)*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     /* Styles */
-    
-
 }
 
 /* all Mobile phones ----------- */
@@ -76,17 +72,22 @@
 
     .page-content-wrapper {
         padding-top: 80px !important;
-        
     }
     .page-content-wrapper h2 {
         max-height: 130px;
     }
-    
+
     .dribble-shot-wrapper {
         width: 100%;
-        
     }
-    .front-cover, .back-cover, .page1, .page2, .page3, .page4, .page5, .page6 {
+    .front-cover,
+    .back-cover,
+    .page1,
+    .page2,
+    .page3,
+    .page4,
+    .page5,
+    .page6 {
         width: 40vw;
     }
 
@@ -94,13 +95,13 @@
         display: none;
         transform: none;
     }
+
+    #outdoor-navigation-wrapper {
+        width: 70%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    
-    
-
-
 }
 
 /* Desktops and laptops ----------- */
@@ -138,9 +139,8 @@
     }
 
     .dribble-shot-wrapper {
-        width: calc( 100% / 3);
+        width: calc(100% / 3);
     }
-
 }
 
 /* Large screens ----------- */
@@ -256,12 +256,34 @@
     .small-character {
         width: 120px !important;
     }
-    
+
     #progress-bar-wrapper {
         bottom: 2.5%;
     }
+}
 
+@media only screen and (min-height: 1500px) {
+    .screen-container-collapsed {
+        height: calc(100% - 20px - 250px);
+    }
 
+    .screen-container-collapsed-no-anim {
+        height: calc(100% - 20px - 250px);
+    }
+
+    .phone-bottom-section {
+        width: 100%;
+        height: 230px;
+    }
+    .home-btn {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hint-text {
+        font-size: 3rem;
+        top: 30px;
+    }
 }
 
 /* iPhone 4 ----------- */
